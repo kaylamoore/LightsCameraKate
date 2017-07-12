@@ -1,182 +1,69 @@
 body {
-    font-family: "Josefin Sans"; Helvetica; sans-serif;
+  color: black;
+  margin: 0 auto;
+  background-color: #FAFAFA;
 }
 
-#topbanner {
-    background-image: url(../images/katebg2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+.navbar {
+    height: 65px;
+    border-bottom: 1px solid #eeeeee;
 }
 
-#topbanner header {
-    padding: 2rem 0;
-    letter-spacing: 1.5px;
+.container-fluid {
+    padding-top: 7px;
+    font-family: 'Maven Pro';
+    letter-spacing: 2.5px;
 }
 
-#topbanner #porchinit {
-    color: #fff;
-    font-weight: 700;
-    font-size: 1rem;
-    float: left;
-    margin: 0;
-}
 
-#topbanner #porchinit span {
-    font-weight: 400;
-    font-style: italic;
 
-}
-
-.wrapper {
-    width: 1440px;
-    max-width: 90%;
-    margin: 0 auto;
-}
-
-#topbanner nav {
-    float: right;
-}
-
-#topbanner nav a {
-    color: #fff;
-    font-weight: 400;
-    text-decoration: none;
-    font-size: .5em;
-    margin-left: 2rem;
-}
-
-.topcontent {
-    padding: 2rem 0 6rem 0;
-    color: #fff;
+h1 {
+    padding-top: 70px;
     text-align: center;
+    font-family: 'Maven Pro';
 }
 
-.topcontent .title {
-    font-size: 3.5rem;
-    margin: 0;
-    letter-spacing: 1.5px;
-
+.featurette-divider {
+  margin: 60px 0 80px 0; /* Space out the Bootstrap <hr> more */
 }
 
-.topcontent .subtitle {
-    font-style: italic;
-    font-size: 1.35rem;
-    font-weight: 400;
-    width: 500px;
-    margin: 0 auto 2rem auto;
-    line-height: 1.75;
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
 }
 
-.buttonwrapper {
-    margin: 3rem 0;
+
+.sr-icons{
+    height: 50px;
+    display: block;
+    margin: auto;
 }
 
-.button {
-    border: none;
-    outline: none;
-    border-radius: 2rem; /* half circle */
-    padding: .6rem 3rem;
-    font-weight: 700;
-    color: #fff;
-    text-decoration: none;
+#skillset {
     text-align: center;
-    margin: 0.75rem;
-
+    margin-top: 50px;
 }
 
-.buttonone {
-    background: #7ac483;
-}
-
-.buttontwo {
-    background: rgba(250, 250, 250, 0.3);
+.media {
+    margin: 50px 0px 100px 0px;
 }
 
 
-/* About Section Squares */
 
-#about {
-    background: #f2f1f8;
-    padding: 2rem 0 6.5rem 0;
-    position: relative;
+.media-body {
+    padding-left: 15px;
+    padding-top: 5px;
+    line-height: 2.5;
 }
 
-.cf:after,
-.cf:before {
-    content: " ";
-    display: table;
-}
 
-.cf:after {
-    clear: both;
-}
-
-#about .about {
-    background: #fff;
-    text-align: center;
-    border-radius: 2rem;
-    width: 25%;
-    float: left;
-    margin: -5rem 1% 0 1%;
-    padding: 3rem 2.5%;
-    position: relative;
-    -webkit-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
-    -moz-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
-    box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
-}
-
-#about h3 {
-    margin: 0;
-    font-size: 1.5rem;
-    color: #3f3d4e;
-}
-
-#about p {
-    margin: 1rem 0 2rem 0;
-    color: #3f3d4e;
-}
-
-#slideshow {
-    background: #f2f1f8;
-    padding: 2rem 0 6.5rem 0;
-    position: relative;
-    text-align: center;
-}
-
-.slideshowwrapper {
-    margin: 3rem 0;
-}
-
-#slideshow h3 {
+#topsection {
+    padding: 40px;
+    padding: 10px 25px 40px 25px;
 
 }
 
-#contact {
-    background-color: #3f3d4e;
-    text-align: center;
-}
-
-.contact h1 {
-    color: #fff;
-    letter-spacing: 1.5px;
-    font-size: 2.5rem;
-    margin: 2rem 0 -1% 0;
-}
-
-.contact h2 {
-    color: #f2f1f8;
-}
-
-.contact h2 span {
-    font-weight: 400;
-    font-style: italic;
-
-}
-
-#work {
-    background: #C0C0C0;
-    padding: 5rem 0 25rem 0;
-    text-align: center;
-    position: relative;
-    font-color: #fff;
-}
